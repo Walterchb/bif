@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reporte de Cambios e Inversiones</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+      color: #333333;
+    }
+    .wrapper {
+      width: 100%;
+      background-color: #f4f6f8;
+      padding: 20px 0;
+    }
+    .main {
+      background-color: #ffffff;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 850px;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .header {
+      background-color: #002C71;
+      padding: 20px;
+      text-align: center;
+    }
+    .header img {
+      max-height: 40px;
+    }
+    .header h1 {
+      margin: 10px 0 0;
+      font-size: 22px;
+      color: #ffffff;
+      font-weight: normal;
+    }
+    .content {
+      padding: 30px 25px;
+    }
+    .content h2 {
+      color: #002C71;
+      font-size: 18px;
+      margin: 30px 0 10px;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .table th,
+    .table td {
+      padding: 10px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .table th {
+      background-color: #e9eef5;
+      font-weight: normal;
+    }
+    .table tr:nth-child(even) td {
+      background-color: #fafafb;
+    }
+    .table th.numeric,
+    .table td.numeric {
+      text-align: center;
+    }
+    .table th.col-acum,
+    .table td.col-acum {
+      background-color: #e9f5ff;
+    }
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #005BBB;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+    .footer {
+      background-color: #f4f6f8;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #777777;
+    }
+    .footer a {
+      color: #005BBB;
+      text-decoration: none;
+    }
+    @media screen and (max-width: 800px) {
+      .main { max-width: 100% !important; }
+      .content { padding: 20px 15px; }
+      .header h1 { font-size: 20px; }
+      .content h2 { font-size: 16px; }
+      .cta a { font-size: 14px; padding: 10px 20px; }
+    }
+  </style>
+</head>
+
+<body>
+  <table class="wrapper" cellpadding="0" cellspacing="0" role="presentation">
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" role="presentation">
+          
+          <!-- Header -->
+          <tr>
+            <td class="header">
+              <img src="https://via.placeholder.com/150x40?text=Logo+Empresa" alt="Logo BanBif" />
+              <h1>Reporte de Diferencias</h1>
+            </td>
+          </tr>
+          
+          <!-- Contenido -->
+          <tr>
+            <td class="content">
+              <h2>Estimados,</h2>
+              <p>
+                Estamos incorporando un reporte diario de diferencias contra el ROF para tener identificados los resultados de manera adecuada:
+              </p>
+              
+              <!-- Sección 1: Resultado de Inversiones -->
+              <h2>Resultado de Inversiones (S/)</h2>
+              <table class="table" role="presentation">
+                <tr>
+                  <th>Producto</th>
+                  <th class="numeric">ROF</th>
+                  <th class="numeric">Tesorería</th>
+                  <th class="numeric col-acum">Diferencia Acumulada</th>
+                  <th class="numeric">RM</th>
+                  <th class="numeric">CONTA</th>
+                </tr>
+                <tr>
+                  <td>Soberanos Trading</td>
+                  <td class="numeric">251,066</td>
+                  <td class="numeric">251,066</td>
+                  <td class="numeric col-acum">(0)</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                </tr>
+                <tr>
+                  <td>Treasuries</td>
+                  <td class="numeric">(541,061)</td>
+                  <td class="numeric">(541,061)</td>
+                  <td class="numeric col-acum">0</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                </tr>
+                <tr>
+                  <td>Soberanos DVP ALM</td>
+                  <td class="numeric">190,341</td>
+                  <td class="numeric">190,341</td>
+                  <td class="numeric col-acum">(0)</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                </tr>
+                <tr>
+                  <td>Soberanos Estratégico</td>
+                  <td class="numeric">48,094</td>
+                  <td class="numeric">48,094</td>
+                  <td class="numeric col-acum">0</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                </tr>
+                <tr>
+                  <td>OIS</td>
+                  <td class="numeric">(1,302)</td>
+                  <td class="numeric">(1,302)</td>
+                  <td class="numeric col-acum">(0)</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                </tr>
+              </table>
+              
+              <!-- Sección 2: Diferencia de Cambio -->
+              <h2>Diferencia de Cambio (S/)</h2>
+              <table class="table" role="presentation">
+                <tr>
+                  <th>Operación</th>
+                  <th class="numeric">ROF</th>
+                  <th class="numeric">Tesorería</th>
+                  <th class="numeric col-acum">Acumulado</th>
+                  <th class="numeric">RM</th>
+                  <th class="numeric">CONTA</th>
+                </tr>
+                <tr>
+                  <td>Liquidación Forwards</td>
+                  <td class="numeric">18,495,933</td>
+                  <td class="numeric">18,555,223</td>
+                  <td class="numeric col-acum">(59,290)</td>
+                  <td class="numeric">–</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-17472327670183.png" width="16" height="16" alt="no"></td>
+                </tr>
+                <tr>
+                  <td>Valorización Forwards</td>
+                  <td class="numeric">3,924,335</td>
+                  <td class="numeric">4,006,987</td>
+                  <td class="numeric col-acum">(82,652)</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-17472327670183.png" width="16" height="16" alt="no"></td>
+                </tr>
+                <tr>
+                  <td>Liquidación BCRP</td>
+                  <td class="numeric">(4,419,134)</td>
+                  <td class="numeric">(4,419,134)</td>
+                  <td class="numeric col-acum">–</td>
+                  <td class="numeric">–</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                </tr>
+                <tr>
+                  <td>Valorización BCRP</td>
+                  <td class="numeric">(20,396,778)</td>
+                  <td class="numeric">(20,474,559)</td>
+                  <td class="numeric col-acum">77,781</td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
+                  <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-17472327670183.png" width="16" height="16" alt="no"></td>
+                </tr>
+              </table>
+              
+              <div class="cta">
+                <a href="[ENLACE_A_REPORTE_COMPLETO]">Ver reporte completo</a>
+              </div>
+              
+              <p>
+                Quedamos atentos a cualquier comentario.
+              </p>
+              
+              <p>Saludos cordiales,<br />
+                Walter Chávez<br />
+                Analista de Tesorería & Mercado de Capitales
+              </p>
+            </td>
+          </tr>
+          
+          <!-- Footer -->
+          <tr>
+            <td class="footer">
+              2025 Tesorería BanBif<br />
+              Datos confidenciales<br />
+              <a href="mailto:contacto@empresa.com">wchavez@banbif.com.pe</a> | +51 999876575
+            </td>
+          </tr>
+          
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
