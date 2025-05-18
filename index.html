@@ -31,14 +31,15 @@
       text-align: center;
     }
     .header h1 {
-      margin: 0;
+      margin-bottom: 20px;
       font-size: 22px;
       color: #ffffff;
       font-weight: normal;
     }
     .content {
-      padding: 30px 25px;
+      padding: 10px 30px 25px;
       line-height: 1.5;
+      border: 1px solid #cfcfcf;
     }
     .content h2 {
       color: #002C71;
@@ -102,27 +103,24 @@
     }
   </style>
 </head>
-
 <body>
   <table class="wrapper" cellpadding="0" cellspacing="0" role="presentation">
     <tr>
       <td align="center">
         <table class="main" cellpadding="0" cellspacing="0" role="presentation">
-          
           <!-- Header -->
           <tr>
             <td class="header">
               <h1>Reporte de Diferencias</h1>
+              <!-- Imagen debajo del título -->
+              <img src="https://files.cdn.thinkific.com/file_uploads/624155/attachments/c66/d7e/438/imagen_%287%29.png" alt="Gráfico de diferencias" style="display:block; margin:10px auto; max-width:100%; height:auto;">
             </td>
           </tr>
-          
           <!-- Contenido -->
           <tr>
             <td class="content">
-              
               <h2>Estimados,</h2>
-              <p>Incorporamos un reporte diario de diferencias contra el ROF para identificar resultados de forma adecuada:</p>
-              
+              <p>Incorporamos un reporte diario de diferencias contra el ROF para identificar resultados de forma adecuada. Al día 15/04 existe una diferencia acumulada de S/ 4,886 en Diferencia de Cambio Operativa. Los detalles a continuación:</p>
               <!-- Resultado de Inversiones -->
               <h2>Resultado de Inversiones (S/)</h2>
               <table class="table" role="presentation">
@@ -138,7 +136,7 @@
                   <td>Soberanos Trading</td>
                   <td class="numeric">251,066</td>
                   <td class="numeric">251,066</td>
-                  <td class="numeric" style="font-weight:bold; color:#333333;">0</td>
+                  <td class="numeric" style="font-weight:500; color:#333333;">0</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                 </tr>
@@ -146,7 +144,7 @@
                   <td>Soberanos Estratégico</td>
                   <td class="numeric">48,094</td>
                   <td class="numeric">48,094</td>
-                  <td class="numeric" style="font-weight:bold; color:#333333;">0</td>
+                  <td class="numeric" style="font-weight:500; color:#333333;">0</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                 </tr>
@@ -154,7 +152,7 @@
                   <td>Soberanos DVP ALM</td>
                   <td class="numeric">190,341</td>
                   <td class="numeric">190,341</td>
-                  <td class="numeric" style="font-weight:bold; color:#333333;">0</td>
+                  <td class="numeric" style="font-weight:500; color:#333333;">0</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                 </tr>
@@ -162,7 +160,7 @@
                   <td>Treasuries</td>
                   <td class="numeric">(541,061)</td>
                   <td class="numeric">(541,061)</td>
-                  <td class="numeric" style="font-weight:bold; color:#333333;">0</td>
+                  <td class="numeric" style="font-weight:500; color:#333333;">0</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                 </tr>
@@ -170,12 +168,20 @@
                   <td>OIS</td>
                   <td class="numeric">(1,302)</td>
                   <td class="numeric">(1,302)</td>
-                  <td class="numeric" style="font-weight:bold; color:#333333;">0</td>
+                  <td class="numeric" style="font-weight:500; color:#333333;">0</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                 </tr>
+                <!-- Total Inversiones -->
+                <tr style="background-color:#F2F2F2;font-weight:500;">
+                  <td>Total</td>
+                  <td class="numeric">383,346</td>
+                  <td class="numeric">383,346</td>
+                  <td class="numeric"style="font-weight:bold; color:#333333;">(0)</td>
+                  <td class="numeric">Validado</td>
+                  <td class="numeric">Validado</td>
+                </tr>
               </table>
-              
               <!-- Diferencia de Cambio -->
               <h2>Diferencia de Cambio (S/)</h2>
               <table class="table" role="presentation">
@@ -191,7 +197,7 @@
                   <td>Liquidación Forwards</td>
                   <td class="numeric">18,495,933</td>
                   <td class="numeric">18,555,223</td>
-                  <td class="numeric" style="font-weight:bold; color:#dc3545;">(59,290)</td>
+                  <td class="numeric" style="font-weight:500; color:#dc3545;">(59,290)</td>
                   <td class="numeric">–</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-17472327670183.png" width="16" height="16" alt="no"></td>
                 </tr>
@@ -199,7 +205,7 @@
                   <td>Valorización Forwards</td>
                   <td class="numeric">3,924,335</td>
                   <td class="numeric">4,006,987</td>
-                  <td class="numeric" style="font-weight:bold; color:#dc3545;">(82,652)</td>
+                  <td class="numeric" style="font-weight:500; color:#dc3545;">(82,652)</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-17472327670183.png" width="16" height="16" alt="no"></td>
                 </tr>
@@ -207,7 +213,7 @@
                   <td>Liquidación BCRP</td>
                   <td class="numeric">(4,419,134)</td>
                   <td class="numeric">(4,419,134)</td>
-                  <td class="numeric" style="font-weight:bold; color:#333333;">0</td>
+                  <td class="numeric" style="font-weight:500; color:#333333;">0</td>
                   <td class="numeric">–</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                 </tr>
@@ -215,12 +221,20 @@
                   <td>Valorización BCRP</td>
                   <td class="numeric">(20,396,778)</td>
                   <td class="numeric">(20,474,559)</td>
-                  <td class="numeric" style="font-weight:bold; color:#28a745;">+77,781</td>
+                  <td class="numeric" style="font-weight:500; color:#28a745;">+77,781</td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-1747234555878.png" width="16" height="16" alt="ok"></td>
                   <td class="numeric"><img src="https://api-postcards.designmodo.com/files/images/user-138720/image-17472327670183.png" width="16" height="16" alt="no"></td>
                 </tr>
+                <!-- Total Cambio -->
+                <tr style="background-color:#F2F2F2;">
+                  <td>Total</td>
+                  <td class="numeric">(856,375)</td>
+                  <td class="numeric">(851,489)</td>
+                  <td class="numeric"style="font-weight:bold; color:#dc3545;">(4,886)</td>
+                  <td class="numeric">Validado</td>
+                  <td class="numeric">Diferencias</td>
+                </tr>
               </table>
-              
               <!-- Leyenda -->
               <table class="legend-table" role="presentation">
                 <tr>
@@ -239,40 +253,25 @@
                   </td>
                 </tr>
               </table>
-              
-              <!-- Botón con más espacio arriba -->
-              <table align="center" cellpadding="0" cellspacing="0" role="presentation" style="margin:100px auto 30px;">
-                <tr>
-                  <td style="background-color:#005BBB;padding:12px 24px;border-radius:4px;text-align:center;">
-                    <a href="https://walterchb.github.io/bif/" style="color:#ffffff;text-decoration:none;font-size:15px;display:block;">
-                      Ver reporte completo
-                    </a>
-                  </td>
-                </tr>
-              </table>
-              
+               <!-- Diferencias por día -->
+              <h2>Diferencias por día</h2>
               <p>Quedamos atentos a cualquier comentario.</p>
-              
               <p>Saludos cordiales,</p>
-              
               <!-- Firma reducida -->
               <div class="signature">
                 <p class="name">Walter Chávez</p>
                 <p class="title">Analista de Tesorería &amp; Mercado de Capitales</p>
               </div>
-              
             </td>
           </tr>
-          
           <!-- Footer -->
           <tr>
             <td class="footer" style="background-color:#0B3040;padding:20px;text-align:center;font-size:12px;color:#ffffff;">
               Tesorería BanBif 2025<br />
               Mercado de Capitales &amp; Control de Gestión de Tesorería<br />
-              <a href="mailto:mercadodecapitales@banbif.com.pe" style="color:#005BBB;text-decoration:none;">mercadodecapitales@banbif.com.pe</a>
+              <a href="mailto:mercadodecapitales@banbif.com.pe" style="color:#77d2ff;text-decoration:none;">mercadodecapitales@banbif.com.pe</a>
             </td>
           </tr>
-          
         </table>
       </td>
     </tr>
